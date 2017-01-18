@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Macha Cafè</string>
+    <string name="venue_name">Macha Cafè Milano</string>
+    <string name="venue_claim">Macha is the new black!</string>
+    <string name="venue_address">Viale Crespi 15, 20121 Milano</string>
+    <string name="venue_number">02&#8211;45473046"</string>
+    <string name="venue_email">hello@machacafe.it</string>
+    <string name="venue_website">www.machacafe.it</string>
+    <string name="venue_opening">Open every day from 09.00 to 22.30</string>
+    <string name="logo_text">Macha logo</string>
+    <string name="image_text">Example food</string>
+</resources>

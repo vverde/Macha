@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo_text"
+            android:src="@drawable/machalogosmall" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingTop="@dimen/small_padding"
+            android:text="@string/venue_name"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/machaGreen" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha1" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha2" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha3" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha4" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha5" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha6" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha7" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha8" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha9" />
+
+                <ImageView
+                    style="@style/Img"
+                    android:src="@drawable/macha10" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:padding="@dimen/small_padding"
+            android:text="@string/venue_claim"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/machaGreen" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/machaGreen"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/Icon"
+                    android:src="@drawable/street_icon"></ImageView>
+
+                <TextView
+                    style="@style/IconText"
+                    android:autoLink="map"
+                    android:text="@string/venue_address" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/Icon"
+                    android:src="@drawable/phone_icon"></ImageView>
+
+                <TextView
+                    style="@style/IconText"
+                    android:autoLink="phone"
+                    android:text="@string/venue_number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/Icon"
+                    android:src="@drawable/email_icon"></ImageView>
+
+                <TextView
+                    style="@style/IconText"
+                    android:autoLink="email"
+                    android:text="@string/venue_email" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    style="@style/Icon"
+                    android:src="@drawable/web_icon"></ImageView>
+
+                <TextView
+                    style="@style/IconText"
+                    android:autoLink="web"
+                    android:text="@string/venue_website" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/machaGreen"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingBottom="@dimen/small_padding"
+                android:paddingTop="@dimen/small_padding"
+                android:text="@string/venue_opening"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
